@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:13
+-keep class com.cyou.AlertActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:5
+-keep class com.cyou.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class com.cyou.MyAdminReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:12
+-keep class com.cyou.MyService { <init>(...); }
+

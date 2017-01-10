@@ -1,0 +1,110 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Platforms\Tegra-Android\Nvidia.AndroidBuild.targets(255,5): warning MSB8015: Forcing a rebuild of all source files due to the contents of "C:\Users\winsl\Desktop\PopupMsgShowcase\PopupMsgShowcase\Tegra-Android\Debug\ant.command.1.tlog" being invalid.
+  Building using the JDK located here: 'D:\NVPACK\jdk1.8.0_77 (Native64Bit)'...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Platforms\Tegra-Android\Nvidia.AndroidBuild.targets(255,5): warning : When using a 64-bit Java runtime incremental builds may not function correctly.
+  Executing "D:\NVPACK\apache-ant-1.8.2\bin\ant.bat debug -f C:\Users\winsl\Desktop\PopupMsgShowcase\PopupMsgShowcase\Tegra-Android\Debug\nsight_tegra_build.xml -listener org.apache.tools.ant.XmlLogger "
+  Buildfile: C:\Users\winsl\Desktop\PopupMsgShowcase\PopupMsgShowcase\Tegra-Android\Debug\nsight_tegra_build.xml
+  
+  -set-mode-check:
+  
+  -set-debug-files:
+  
+  -check-env:
+   [checkenv] Android SDK Tools Revision 25.2.4
+   [checkenv] Installed at D:\NVPACK\android-sdk-windows
+  
+  -setup:
+       [echo] Project Name: PopupMsgShowcase
+    [gettype] Project Type: Application
+  
+  -set-debug-mode:
+  
+  -debug-obfuscation-check:
+  
+  -pre-build:
+  
+  -build-setup:
+  [getbuildtools] Using latest Build Tools: 24.0.0
+       [echo] Resolving Build Target for PopupMsgShowcase...
+  [gettarget] Project Target:   Android 4.4.2
+  [gettarget] API level:        19
+       [echo] ----------
+       [echo] Creating output directories if needed...
+       [echo] ----------
+       [echo] Resolving Dependencies for PopupMsgShowcase...
+  [dependency] Library dependencies:
+  [dependency] No Libraries
+  [dependency] 
+  [dependency] ------------------
+       [echo] ----------
+       [echo] Building Libraries with 'debug'...
+     [subant] No sub-builds to iterate on
+  
+  -code-gen:
+  [mergemanifest] Found Deleted Target File
+  [mergemanifest] Merging AndroidManifest files into one.
+  [mergemanifest] Manifest merger disabled. Using project manifest only.
+       [echo] Handling aidl files...
+       [aidl] No AIDL files to compile.
+       [echo] ----------
+       [echo] Handling RenderScript files...
+       [echo] ----------
+       [echo] Handling Resources...
+       [aapt] Found Deleted Target File
+       [aapt] Generating resource IDs...
+       [echo] ----------
+       [echo] Handling BuildConfig class...
+  [buildconfig] No need to generate new BuildConfig.
+  
+  -pre-compile:
+  
+  -compile:
+      [javac] Compiling 2 source files to C:\Users\winsl\Desktop\PopupMsgShowcase\PopupMsgShowcase\Tegra-Android\Debug\bin\classes
+      [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+      [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+      [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+      [javac] 注: C:\Users\winsl\Desktop\PopupMsgShowcase\PopupMsgShowcase\src\com\cyou\AlertActivity.java使用或覆盖了已过时的 API。
+      [javac] 注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+      [javac] 3 个警告
+  
+  -post-compile:
+  
+  -obfuscate:
+  
+  -dex:
+        [dex] input: C:\Users\winsl\Desktop\PopupMsgShowcase\PopupMsgShowcase\Tegra-Android\Debug\bin\classes
+        [dex] Found Deleted Target File
+        [dex] Converting compiled files and external libraries into C:\Users\winsl\Desktop\PopupMsgShowcase\PopupMsgShowcase\Tegra-Android\Debug\bin\classes.dex...
+         [dx] Picked up _JAVA_OPTIONS:  -Xms256m -Xmx1024m
+  
+  -crunch:
+     [crunch] Crunching PNG Files in source dir: C:\Users\winsl\Desktop\PopupMsgShowcase\PopupMsgShowcase\res
+     [crunch] To destination dir: C:\Users\winsl\Desktop\PopupMsgShowcase\PopupMsgShowcase\Tegra-Android\Debug\bin\res
+     [crunch] Crunched 0 PNG files to update cache
+  
+  -package-resources:
+       [aapt] Found Deleted Target File
+       [aapt] Creating full resource package...
+       [aapt] Warning: AndroidManifest.xml already defines debuggable (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+  
+  -package:
+  [apkbuilder] Found Deleted Target File
+  [apkbuilder] Creating PopupMsgShowcase-debug-unaligned.apk and signing it with a debug key...
+  
+  -post-package:
+  
+  -do-debug:
+   [zipalign] Running zip align on final apk...
+       [echo] Debug Package: C:\Users\winsl\Desktop\PopupMsgShowcase\PopupMsgShowcase\Tegra-Android\Debug\bin\PopupMsgShowcase-debug.apk
+  [propertyfile] Updating property file: C:\Users\winsl\Desktop\PopupMsgShowcase\PopupMsgShowcase\Tegra-Android\Debug\bin\build.prop
+  [propertyfile] Updating property file: C:\Users\winsl\Desktop\PopupMsgShowcase\PopupMsgShowcase\Tegra-Android\Debug\bin\build.prop
+  [propertyfile] Updating property file: C:\Users\winsl\Desktop\PopupMsgShowcase\PopupMsgShowcase\Tegra-Android\Debug\bin\build.prop
+  [propertyfile] Updating property file: C:\Users\winsl\Desktop\PopupMsgShowcase\PopupMsgShowcase\Tegra-Android\Debug\bin\build.prop
+  
+  -post-build:
+  
+  debug:
+  
+  BUILD SUCCESSFUL
+  Total time: 5 seconds
+  Picked up _JAVA_OPTIONS:  -Xms256m -Xmx1024m
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Platforms\Tegra-Android\Nvidia.AndroidBuild.targets(255,5): warning MSB8015: Forcing a rebuild of all source files due to the contents of "C:\Users\winsl\Desktop\PopupMsgShowcase\PopupMsgShowcase\Tegra-Android\Debug\ant.command.1.tlog" being invalid.
